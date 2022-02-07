@@ -1,4 +1,4 @@
-# Lista de Exercícios da Soul Code
+# [Lista de Exercícios da Soul Code](https://lista-ex.herokuapp.com/index.html)
 ### HTML
 * [Exercício 1](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/html/ex1) - [Deploy](https://lista-ex.herokuapp.com/html/ex1/index.html)
 * [Exercício 2](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/html/ex2) - [Deploy](https://lista-ex.herokuapp.com/html/ex2/index.html)
