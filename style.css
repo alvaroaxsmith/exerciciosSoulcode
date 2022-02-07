@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 0.2rem;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(119, 0, 255);
+}
+hr {
+    margin: 2.5rem 0 1rem 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    padding: 1rem;
+    margin-left: 1.7rem;
+}

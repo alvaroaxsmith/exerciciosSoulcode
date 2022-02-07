@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+  background-color: rgba(332, 153, 81, 5);
+}
+table {
+    padding: 1rem;
+}
+
+form {
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(238, 255, 0));
+  width: 75%;
+  border: solid 2px;
+}
+form table tr th {
+    text-align: left;
+}
+form table tr td input {
+    border: 1px solid;
+}
+button {
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem 7rem;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.158);
+}

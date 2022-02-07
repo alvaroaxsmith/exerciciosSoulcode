@@ -1,0 +1,31 @@
+/* cores #fe0000 #008001 #888888 #e3e9f2*/
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(#e3e9f2, #888888) ;
+
+}
+header {
+    padding: 4rem;
+    color: white;
+}
+.box-green {
+    background-color: #008001;
+    padding: 0 2rem 0 2rem;
+}
+.a {
+    border-bottom: 2rem solid #fe0000;
+}
+.p-center {
+    padding: 2rem 0 2rem 0;
+}
+#border {
+    border: 4rem solid #fe0000;
+}
+footer {
+    padding: 2rem;
+    color:white;
+}

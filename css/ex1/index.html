@@ -1,0 +1,68 @@
+<!--Desenvolva um formulário para cadastro de 
+    usuário, com os campos, nome, username, email, 
+    senha, cpf e um botão de enviar e estilize-o com css da maneira que preferir.-->
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulário</title>
+    </head>
+    
+    <body>
+        <form>
+                <table>
+                    <tr>
+                        <th>
+                            <label for="nome">Nome: </label>
+                        </th>
+                        <td>
+                            <input id="nome" type="text" name="nome" size="20" maxlength="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="username">Username: </label>
+                        </th>
+                        <td>
+                            <input id="username" type="text" name="nome" size="20" maxlength="100">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th>
+                            <label for="cpf">CPF:</label>
+                        </th>
+                        <td>
+                            <input id="cpf" type="text" name="doc" size="7" maxlength="11" placeholder="000.000.000"> -
+                            <input id="cpf-dg" type="text" name="doc" size="1" maxlength="2" placeholder="00">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="email">Email:</label>
+                        </th>
+                        <td>
+                            <input id="email" type="email" name="email" size="20" maxlength="100"
+                                placeholder="email@email.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="senha">Senha:</label>
+                        </th>
+                        <td>
+                            <input id="senha" type="password" name="senha" size="20" maxlength="50">
+                        </td>
+                    </tr>
+                </table>
+                <button id="submit" type="submit">Enviar</button>
+        </form>
+    
+    
+    </body>
+    
+    </html>

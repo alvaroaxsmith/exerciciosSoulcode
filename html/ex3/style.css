@@ -1,0 +1,17 @@
+body {
+    display: flex;
+}
+#submit {
+    height: 2rem;
+    width: 5rem;
+    margin-left: 8rem;
+    
+}
+
+th {
+    font-weight: 400;
+    text-align: left;
+}
+#cpf-dg, #rg-dg {
+    text-align: center;
+}

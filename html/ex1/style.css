@@ -1,0 +1,6 @@
+.list {
+    list-style-type: circle;
+}
+.table, th, td {
+    border: 1px solid black;   
+}

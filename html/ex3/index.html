@@ -1,0 +1,100 @@
+<!--
+    Faça um fomulário HTML com os campos nome, sobrenome, CPF, email, senha, sexo (masculino, feminino, outro),
+     data de nascimento e um botão para enviar o formulário.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="nome">Nome: </label>
+                    </th>
+                    <td>
+                        <input id="nome" type="text" name="nome" size="20" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                        <th>
+                            <label for="sobrenome">Sobrenome: </label>
+                        </th>
+                        <td>
+                            <input id="sobrenome" type="text" name="nome" size="20" maxlength="100">
+                        </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="dt-nasc" >Nascimento: </label>
+                    </th>
+                    <td>
+                        <input id="dt-nasc" type="text" name="nasc" size="2" maxlength="2" placeholder="dd">
+                        <input id="dt-nasc2" type="text" name="nasc" size="2" maxlength="2" placeholder="mm">
+                        <input id="dt-nasc3" type="text" name="nasc" size="2" maxlength="4" placeholder="aaaa">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="rg">RG: </label>
+                    </th>
+                    <td>
+                        <input id="rg" type="text" name="doc" size="6" maxlength="9" placeholder="00.000.000"> - <input id=rg-dg
+                            type="text" name="doc" size="1" maxlength="2" placeholder="00">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="cpf">CPF:</label>
+                    </th>
+                    <td>
+                        <input id="cpf" type="text" name="doc" size="7" maxlength="11" placeholder="000.000.000"> - <input id="cpf-dg"
+                            type="text" name="doc" size="1" maxlength="2" placeholder="00">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email">Email:</label>
+                    </th>
+                    <td>
+                        <input id="email" type="email" name="email" size="20" maxlength="100" placeholder="email@email.com">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="senha">Senha:</label>
+                    </th>
+                    <td>
+                        <input id="senha" type="password" name="senha" size="20" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Sexo:
+                    </th>
+                    <td>
+                        <input id="masculino" type="radio" name="sexo">
+                        <label for="masculino">Masculino</label>
+                        <input id="feminino" type="radio" name="sexo">
+                        <label for="feminino">Feminino</label>
+                        <input id="outro" type="radio" name="sexo">
+                        <label for="outro">Outro</label>
+                    </td>
+                </tr>
+            </table>
+            <button id="submit" type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
