@@ -6,7 +6,7 @@
     border: 1px  black;
     width: 100%;
     text-align: left;
-    padding: 1rem 0 1rem 0;
+    padding: 3rem 0 3rem 0;
 }
 .grad strong {
     
@@ -14,18 +14,7 @@
     display: inline-block;
     
 }
-figure {
-    margin: 1rem;
-    display: inline-block;
-    padding-right: 1rem;
-}
-.grad figure img {
-    
-    width: 100px;
-    height: 100px;
 
-    
-}
 #grad-1 {
     background-image: linear-gradient(pink, white);
     color: black;
@@ -57,4 +46,36 @@ figure {
 #grad-8 {
     background-image: radial-gradient(purple 50%, white, gray);
     color: black;
+}
+#grad-9 {
+    background-image: url("assets/bulbasaur.gif");
+    background-size: 10rem;
+}
+#grad-10 {
+    background-image: url("assets/charmander.gif");
+    background-size: 10rem;
+}
+#grad-11 {
+    background-image: url("assets/jigglypuff.gif");
+    background-size: 10rem;
+}
+#grad-12 {
+    background-image: url("assets/onyx.gif");
+    background-size: 10rem;
+}
+#grad-13 {
+    background-image: url("assets/pidgey.gif");
+    background-size: 10rem;
+}
+#grad-14 {
+    background-image: url("assets/pikachu.gif");
+    background-size: 10rem;
+}
+#grad-15 {
+    background-image: url("assets/rattata.gif");
+    background-size: 10rem;
+}
+#grad-16 {
+    background-image: url("assets/squirtle.gif");
+    background-size: 10rem;
 }
