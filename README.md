@@ -11,4 +11,4 @@
 * [Exercício 1](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/css/ex1) - [Deploy](https://lista-ex.herokuapp.com/css/ex1/index.html)
 * [Exercício 2](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/css/ex2) - [Deploy](https://lista-ex.herokuapp.com/css/ex2/index.html)
 * [Exercício 3](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/css/ex3) - [Deploy](https://lista-ex.herokuapp.com/css/ex3/index.html)
-* [Exercício 3](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/css/ex4) - [Deploy](https://lista-ex.herokuapp.com/css/ex4/index.html)
+* [Exercício 4](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/css/ex4) - [Deploy](https://lista-ex.herokuapp.com/css/ex4/index.html)
