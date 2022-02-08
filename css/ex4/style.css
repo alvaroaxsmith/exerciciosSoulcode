@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grad {
+    border: 1px  black;
+    width: 100%;
+    text-align: left;
+    padding: 1rem 0 1rem 0;
+}
+.grad strong {
+    
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+figure {
+    margin: 1rem;
+    display: inline-block;
+    padding-right: 1rem;
+}
+.grad figure img {
+    
+    width: 100px;
+    height: 100px;
+
+    
+}
+#grad-1 {
+    background-image: linear-gradient(pink, white);
+    color: black;
+}
+#grad-2 {
+    background-image: linear-gradient(90deg, red, orange);
+    color: white;
+}
+#grad-3 {
+    background-image: radial-gradient(darkgreen, lightgreen);
+    color: white;
+}
+#grad-4 {
+    background-image: repeating-radial-gradient(yellow, yellow 10%, black 15%);
+    color: black;
+}
+#grad-5 {
+    background-image: linear-gradient(45deg, darkblue, lightblue);
+    color: white;
+}
+#grad-6 {
+    background-image: radial-gradient(gray 60%, brown 40%);
+    color: white;
+}
+#grad-7 {
+    background-image: linear-gradient(brown, white, yellow);
+    color: black;
+}
+#grad-8 {
+    background-image: radial-gradient(purple 50%, white, gray);
+    color: black;
+}
