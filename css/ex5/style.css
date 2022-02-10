@@ -1,0 +1,30 @@
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 10rem 0 10rem;
+
+}
+div {
+    border: 1px solid red;
+    padding: 4rem;
+    margin: 1rem;
+    box-shadow: -1px 1px 0px red,
+                -2px 2px 0px red,
+                -3px 3px 0px red,
+                -4px 4px 0px red,
+                -5px 5px 0px red,
+                -6px 6px 0px red,
+                -7px 7px 0px red,
+                -8px 8px 0px red,
+                -9px 9px 0px red,
+                -10px 10px 0px red,
+                -11px 11px 0px red,
+                -12px 12px 0px red,
+                -13px 13px 0px red,
+                -14px 14px 0px red;
+}
+.longo {
+    width: 162px;
+}

@@ -1,0 +1,63 @@
+body {
+	color: white;
+	margin: 0;
+}
+
+.flex-wrapper {
+
+	margin-top: 1rem;
+	padding: 0 6rem 0 6rem;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+    padding: 0.5rem 0;
+}
+
+.container div {
+    background: yellow;
+	padding: 1rem 0;
+}
+
+.container:first-child {
+	margin-top: 4rem;
+}
+
+.col-1 {
+	width: 7%;
+}
+.col-2 {
+	width: 15.5%;
+}
+.col-3 {
+	width: 24%;
+}
+.col-4 {
+	width: 32.4%;
+}
+.col-5 {
+	width: 41%;
+}
+.col-6 {
+	width: 49.3%;
+}
+.col-7 {
+	width: 58%;
+}
+.col-8 {
+	width: 66%;
+}
+.col-9 {
+	width: 74%;
+}
+.col-10 {
+	width: 83%;
+}
+.col-11 {
+	width: 91%;
+}
+.col-12 {
+	width: 100%;
+}
