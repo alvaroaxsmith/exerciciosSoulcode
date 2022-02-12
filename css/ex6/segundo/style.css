@@ -1,0 +1,19 @@
+@import url(../../ex6/style.css);
+#grid {
+  grid-template-areas:
+    "header"
+    "section"
+    "footer";
+}
+
+.grid-main {
+  border-bottom: 5px solid black;
+  padding-bottom: 29.6%;
+
+}
+.grid-footer {
+  grid-area: footer;
+  width: 100%;
+  padding-bottom: 5%;
+  background-color: rgb(204, 204, 204);
+}

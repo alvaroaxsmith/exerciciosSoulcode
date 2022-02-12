@@ -1,0 +1,24 @@
+@import url(../header.css);
+#grid {
+  display: grid;
+  grid-template-areas:
+    "aside section section section"
+    "aside section section section";
+  margin-top: 2.7rem;
+
+}
+.grid-aside {
+  grid-area: aside;
+  height: 100%;
+  padding-bottom: 90%;
+  background-color: lightgray;
+  border-right: 5px solid black;
+}
+
+.grid-main {
+  grid-area: section;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30%;
+  background-color: lightgray;
+}
