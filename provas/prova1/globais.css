@@ -7,7 +7,10 @@
 }
 :root {
     --cyan: hsl(179, 62%, 43%);
-    --light-cyan: hsl(179, 62%, 73%);
+    --light-cyan: hsl(179, 47%, 52%);
+    --dark-cyan: hsl(179, 62%, 33%);
+    --lighter-cyan: hsl(179, 62%, 73%);
+    --lighter-cyan2: hsl(179, 62%, 79%);
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
