@@ -71,7 +71,6 @@
         padding: 3.5rem 0 0 3.5rem;
         border-bottom-left-radius: 0.6rem;
         text-align: left;
-
     }
     span {
         display: flex;
@@ -121,5 +120,58 @@
 
 }
 @media (max-width: 375px) {
-    
+    body {
+        display: grid;
+        grid-template-areas: 
+        "main main main"
+        "main header main"
+        "main article main"
+        "main article main"
+        "main main main";
+    }
+    main {
+        background-color: var(--light-gray);
+        padding: 10vh 15vw;
+    }
+    div header {
+        background-color: #fff;
+        padding: 0;
+        height: 20rem;
+        width: 16.5rem;
+        color: var(--grayish-blue);
+        border-top-left-radius: 0.6rem;
+        border-top-right-radius: 0.6rem;
+        
+    }
+
+    article {
+        flex-direction: column;
+        height: 25rem;
+    }
+
+    article .first {
+        background-color: var(--cyan);
+        width: 16.5rem;
+        padding: 0;
+        border-bottom-left-radius: 0.6rem;
+        text-align: left;
+    }
+    article .second {
+        background-color: var(--light-cyan);
+        width: 16.5rem;
+        padding: 0;
+        border-bottom-right-radius: 0.6rem;
+    }
+    .first input {
+        
+        margin-top: 0;
+        padding: 0;
+        width: 10rem;
+        font-size: 1.8rem;
+        border-radius: 0.6rem;
+        border-style: none;
+        color: #fff;
+        box-shadow: 0 0 2rem var(--dark-cyan);
+        background-color: var(--bright-yellow);
+    }
 }
