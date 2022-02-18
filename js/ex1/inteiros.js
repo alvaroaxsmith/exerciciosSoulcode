@@ -7,15 +7,14 @@ function maiorNumeroInteiro() {
     let numB = parseInt(prompt("Digite o segundo número inteiro: "));
     let numC = parseInt(prompt("Digite o terceiro número inteiro: "));
 
-    if (numA > numB && numA > numC) {
-        alert(`O número inteiro maior é ${numA}!`);
-    } else if (numB > numA && numB > numC) {
-        alert(`O número inteiro maior é ${numB}!`);
-    } else if (numC > numA && numC > numB) {
-        alert(`O número inteiro maior é ${numC}!`);
-    } else {
-        alert(`Ocorreu um erro, tente novamente ...`);
-    }
+    var maior = numA;
+
+    if(numB > maior)
+    maior = numB;
+    if(numC > maior)
+    maior = numC;
+
+    alert(`O número inteiro maior é: ${maior}`);
 }
 
 maiorNumeroInteiro();
