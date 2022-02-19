@@ -18,7 +18,7 @@
     Weights: 400, 700
 */
 @import url(/provas/prova1/globais.css);
-@media (max-width: 2560px) {
+/*@media (max-width: 2560px) { */
     main {
         display: flex;
         flex-direction: column;
@@ -43,20 +43,31 @@
     }
     h1 {
         font-size: 2.3rem;
+        font-weight: 700;
         color: var(--cyan);
     }
     h2 {
         font-size: 1.8rem;
+        font-weight: 700;
     }
     header h2 {
         margin-top: 2rem;
         color: var(--bright-yellow);
     }
-    p {
+    .paragr {
         font-size: 1.4rem;
         margin-top: 0.8rem;
+        margin-right: 12rem;
+        font-weight: 400;
     }
-    header p:nth-of-type(1) {
+    #h-text {
+        font-size: 1.4rem;
+        margin-top: 0.8rem;
+        margin-right: 12rem;
+        font-weight: 400;
+    }
+
+    header #h-text:nth-of-type(1) {
         margin-top: 1.5rem;
     }
     article {
@@ -114,10 +125,123 @@
         line-height: 1.1rem;
         color: var(--lighter-cyan2);
     }
-}
+/*}*/
 @media (max-width: 1440px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 21.8vh 10vw;
+        background-color: var(--light-gray);
+    }
+    div {
+        box-shadow: 0 0 2rem var(--gray);
+        border-radius: 0.3rem; /*borda da sombra*/
+    }
+    div header {
+        background-color: #fff;
+        padding: 0;
+        height: 10rem;
+        width: 30rem;
+        color: var(--grayish-blue);
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        
+    }
+    h1 {
+        padding: 1.5rem 0 0 1.5rem;
+        font-size: 1.2rem;
 
+    }
+    h2 {
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        font-weight: 700;
+    }
+    header h2 {
+        margin-top: 1rem;
+        color: var(--bright-yellow);
+    }
+    .paragr {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+        font-weight: 400;
+    }
+    #h-text {
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+        margin-right: 2rem;
+        font-weight: 400;
+    }
 
+    header #h-text:nth-of-type(1) {
+        margin-top: 0.8rem;
+    }
+    article {
+        display: flex;
+        height: 12rem;
+        color: #fff;
+        
+    }
+    article .first {
+        background-color: var(--cyan);
+        width: 15rem;
+        padding: 0;
+        border-bottom-left-radius: 0.3rem;
+        text-align: left;
+    }
+    span {
+        display: flex;
+    }
+    span small {
+        margin: 0.8rem 0 1rem 0;
+        padding-left: 1.2rem;
+    }
+    article .second {
+        background-color: var(--light-cyan);
+        width: 15rem;
+        padding: 0;
+        border-bottom-right-radius: 0.3rem;
+    }
+    .first h2 {
+        padding: 1.5rem 0 0 0rem;
+        margin-bottom: 0;
+    }
+    .first strong {
+        font-size: 1.4rem;
+        padding: 1rem 0 0 1.5rem;
+    }
+    .first small {
+        font-size: 0.8rem;
+        font-weight: 200;
+        padding: 0.6rem 0 0 0.8rem;
+    }
+    .first input {
+        
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        padding: 0.7rem;
+        width: 12rem;
+        font-size: 0.8rem;
+        border-radius: 0.3rem;
+    }
+    .second h2 {
+        margin-top: 1.5rem;
+        padding: 0 0 0 1.5rem;
+        margin-bottom: 1.4rem;
+    }
+    .second p {
+        margin-left: 0rem;
+        padding: 0 0 0 1.5rem;
+        line-height: 0.75rem;
+        color: var(--lighter-cyan2);
+        font-size: 0.6rem;
+    }
 }
 @media (max-width: 375px) {
     body {
@@ -136,32 +260,37 @@
     div header {
         background-color: #fff;
         padding: 0;
-        height: 20rem;
+        height: 14.5rem;
         width: 16.5rem;
         color: var(--grayish-blue);
-        border-top-left-radius: 0.6rem;
-        border-top-right-radius: 0.6rem;
+        border-top-left-radius: 0.3rem;
+        border-top-right-radius: 0.3rem;
+        
+    }
+    article {
+        display: flex;
+        height: 25rem;
+        flex-direction: column;
+        color: #fff;
         
     }
 
-    article {
-        flex-direction: column;
-        height: 25rem;
-    }
-
     article .first {
-        background-color: var(--cyan);
+
+        height: 14.5rem;
         width: 16.5rem;
         padding: 0;
-        border-bottom-left-radius: 0.6rem;
+        border-bottom-left-radius: 0rem;
         text-align: left;
     }
     article .second {
-        background-color: var(--light-cyan);
+        height: 14.5rem;
         width: 16.5rem;
         padding: 0;
-        border-bottom-right-radius: 0.6rem;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
     }
+
     .first input {
         
         margin-top: 0;
@@ -174,4 +303,70 @@
         box-shadow: 0 0 2rem var(--dark-cyan);
         background-color: var(--bright-yellow);
     }
+    h1 {
+        padding: 2rem 0 0 1.5rem;
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 0.8rem;
+        margin-left: 0rem;
+    }
+    header h2 {
+        margin-top: 1.2rem;
+        
+        padding: 0 0 0 1.5rem;
+    }
+    #h-text {
+        margin-left: 0;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+        font-weight: 200;
+        padding: 0 0 0 1.5rem;
+        margin-right: 1rem;
+        margin-top: 0.8rem;
+    }
+    header #h-text:nth-of-type(1) {
+        margin-top: 0.8rem;
+    }
+    .first h2 {
+        padding: 2rem 0 0 1.5rem;
+        margin-bottom: 0;
+    }
+    .first strong {
+        font-size: 1.6rem;
+        padding: 1rem 0 0 1.5rem;
+    }
+    .first small {
+        font-size: 0.8rem;
+        font-weight: 200;
+        padding: 0.6rem 0 0 0.8rem;
+    }
+    .first input {
+        
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        padding: 0.7rem;
+        width: 13.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.3rem;
+    }
+    .paragr {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+        font-weight: 400;
+    }
+    .second h2 {
+        margin-top: 1.2rem;
+        padding: 0 0 0 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .second p {
+        margin-left: 0rem;
+        padding: 0 0 0 1.5rem;
+        line-height: 0.9rem;
+        color: var(--lighter-cyan2);
+    }
+
 }
