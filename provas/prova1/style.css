@@ -107,10 +107,10 @@
         color: var(--lighter-cyan);
         font-size: 1.4rem;
     }
-    .first input:hover {
+    .first button:hover {
         background-color: rgba(206, 209, 18, 0.466);
     }
-    .first input {
+    .first button {
         
         margin-top: 2.5rem;
         padding: 1.5rem;
@@ -123,15 +123,17 @@
         background-color: var(--bright-yellow);
     }
     .second h2 {
+        padding-left: 0;
         margin-bottom: 2.2rem;
     }
     .second p {
+        
         line-height: 1.1rem;
         color: var(--lighter-cyan2);
     }
 /*}*/
 @media (max-width: 1440px) {
-    .first input:hover {
+    .first button:hover {
         background-color: rgba(206, 209, 18, 0.466);
     }
     main {
@@ -230,7 +232,7 @@
         font-weight: 200;
         padding: 0.6rem 0 0 0.8rem;
     }
-    .first input {
+    .first button {
         
         margin-top: 1.5rem;
         margin-left: 1.5rem;
@@ -241,7 +243,6 @@
     }
     .second h2 {
         margin-top: 1.5rem;
-        padding: 0 0 0 1.5rem;
         margin-bottom: 1.4rem;
     }
     .second p {
@@ -300,7 +301,7 @@
         border-bottom-left-radius: 0.3rem;
     }
 
-    .first input {
+    .first button {
         
         margin-top: 0;
         padding: 0;
@@ -350,7 +351,7 @@
         font-weight: 200;
         padding: 0.6rem 0 0 0.8rem;
     }
-    .first input {
+    .first button {
         
         margin-top: 1.5rem;
         margin-left: 1.5rem;
