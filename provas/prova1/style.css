@@ -21,6 +21,7 @@
 /*@media (max-width: 2560px) { */
     main {
         display: flex;
+        height: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -106,6 +107,9 @@
         color: var(--lighter-cyan);
         font-size: 1.4rem;
     }
+    .first input:hover {
+        background-color: rgba(206, 209, 18, 0.466);
+    }
     .first input {
         
         margin-top: 2.5rem;
@@ -127,12 +131,17 @@
     }
 /*}*/
 @media (max-width: 1440px) {
+    .first input:hover {
+        background-color: rgba(206, 209, 18, 0.466);
+    }
     main {
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 21.8vh 10vw;
+        padding: 23.2vh 10vw;
+        
         background-color: var(--light-gray);
     }
     div {
