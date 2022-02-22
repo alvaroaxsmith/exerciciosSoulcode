@@ -265,9 +265,11 @@
     }
     main {
         background-color: var(--light-gray);
-        padding: 10vh 15vw;
+        padding: 5vh 14.45vw;
+        grid-area: main;
     }
     div header {
+        grid-area: header;
         background-color: #fff;
         padding: 0;
         height: 14.5rem;
@@ -278,6 +280,7 @@
         
     }
     article {
+        
         display: flex;
         height: 25rem;
         flex-direction: column;
@@ -286,7 +289,7 @@
     }
 
     article .first {
-
+        grid-area: article;
         height: 14.5rem;
         width: 16.5rem;
         padding: 0;
@@ -294,6 +297,7 @@
         text-align: left;
     }
     article .second {
+        grid-area: article;
         height: 14.5rem;
         width: 16.5rem;
         padding: 0;
