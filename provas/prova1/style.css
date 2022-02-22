@@ -268,6 +268,10 @@
         padding: 5vh 14.45vw;
         grid-area: main;
     }
+    div {
+        box-shadow: 0 0 1em var(--gray);
+        border-radius: 0.6rem;
+    }
     div header {
         grid-area: header;
         background-color: #fff;
@@ -277,6 +281,7 @@
         color: var(--grayish-blue);
         border-top-left-radius: 0.3rem;
         border-top-right-radius: 0.3rem;
+        
         
     }
     article {
