@@ -8,7 +8,7 @@ var User = /** @class */ (function () {
         this._password = "123ijij";
         this._cpf = 13413413413;
         this._contact = 999999999;
-        this._isAdmin = "user";
+        this._isAdmin = false;
     }
     Object.defineProperty(User.prototype, "firstName", {
         get: function () {

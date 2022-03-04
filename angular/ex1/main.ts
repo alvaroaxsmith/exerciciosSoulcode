@@ -6,7 +6,7 @@ interface UserProps {
     password: string;
     cpf: number;
     contact: number;
-    isAdmin: string;
+    isAdmin: boolean;
 }
 class User implements UserProps {
 
@@ -17,7 +17,7 @@ class User implements UserProps {
     private _password: string = "123ijij";
     private _cpf: number = 13413413413;
     private _contact: number = 999999999;
-    private _isAdmin: string = "user";
+    private _isAdmin: boolean = false;
 
     public get firstName(){
         return this._firstName;
