@@ -1,96 +1,80 @@
 "use strict";
 var User = /** @class */ (function () {
-    function User() {
-        this._firstName = "Alvaro";
-        this._lastName = "Ferreira";
-        this._userName = "alva7o";
-        this._email = "alvaromachadoferreira@hotmail.com";
-        this._password = "123ijij";
-        this._cpf = 13413413413;
-        this._contact = 999999999;
-        this._isAdmin = false;
+    function User(firstName, lastName, userName, email, password, cpf, contact, isAdmin) {
+        this.firstName = "Alvaro";
+        this.lastName = "Ferreira";
+        this.userName = "alva7o";
+        this.email = "alvaromachadoferreira@hotmail.com";
+        this.password = "123ijij";
+        this.cpf = 13413413413;
+        this.contact = 999999999;
+        this.isAdmin = false;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.email = email;
+        this.password = password;
+        this.cpf = cpf;
+        this.contact = contact;
+        this.isAdmin = isAdmin;
     }
-    Object.defineProperty(User.prototype, "firstName", {
-        get: function () {
-            return this._firstName;
-        },
-        set: function (value) {
-            this._firstName = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "lastName", {
-        get: function () {
-            return this._lastName;
-        },
-        set: function (value) {
-            this._lastName = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "userName", {
-        get: function () {
-            return this._userName;
-        },
-        set: function (value) {
-            this._userName = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "email", {
-        get: function () {
-            return this._email;
-        },
-        set: function (value) {
-            this._email = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "password", {
-        get: function () {
-            return this._password;
-        },
-        set: function (value) {
-            this._password = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "cpf", {
-        get: function () {
-            return this._cpf;
-        },
-        set: function (value) {
-            this._cpf = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "contact", {
-        get: function () {
-            return this._contact;
-        },
-        set: function (value) {
-            this._contact = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(User.prototype, "isAdmin", {
-        get: function () {
-            return this._isAdmin;
-        },
-        set: function (value) {
-            this._isAdmin = value;
-        },
-        enumerable: false,
-        configurable: true
-    });
+    User.prototype.getFirstName = function () {
+        return this.firstName;
+    };
+    User.prototype.getLastName = function () {
+        return this.lastName;
+    };
+    User.prototype.getUserName = function () {
+        return this.userName;
+    };
+    User.prototype.getEmail = function () {
+        return this.email;
+    };
+    User.prototype.getPassword = function () {
+        return this.password;
+    };
+    User.prototype.getCpf = function () {
+        return this.cpf;
+    };
+    User.prototype.getContact = function () {
+        return this.contact;
+    };
+    User.prototype.getIsAdmin = function () {
+        return this.isAdmin;
+    };
+    User.prototype.setFirstName = function (value) {
+        this.firstName = value;
+    };
+    User.prototype.setLastName = function (value) {
+        this.lastName = value;
+    };
+    User.prototype.setUserName = function (value) {
+        this.userName = value;
+    };
+    User.prototype.setEmail = function (value) {
+        this.email = value;
+    };
+    User.prototype.setPassword = function (value) {
+        this.password = value;
+    };
+    User.prototype.setCpf = function (value) {
+        this.cpf = value;
+    };
+    User.prototype.setContact = function (value) {
+        this.contact = value;
+    };
+    User.prototype.setIsAdmin = function (value) {
+        this.isAdmin = value;
+    };
     return User;
 }());
-var user = new User();
-console.log(user.cpf);
+var user = new User('Alvaro', 'Ferreira', 'alva7o', 'alvaromachadoferreira@hotmail.com', '123ijij', 13413413413, 999999999, false);
+user.setCpf(12312312312);
+console.log(user.getFirstName());
+console.log(user.getLastName());
+console.log(user.getUserName());
+console.log(user.getEmail());
+console.log(user.getPassword());
+console.log(user.getCpf());
+console.log(user.getContact());
+console.log(user.getIsAdmin());

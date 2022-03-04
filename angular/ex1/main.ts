@@ -8,67 +8,99 @@ interface UserProps {
     contact: number;
     isAdmin: boolean;
 }
+
 class User implements UserProps {
 
-    private _firstName: string = "Alvaro";
-    private _lastName: string = "Ferreira";
-    private _userName: string = "alva7o";
-    private _email: string = "alvaromachadoferreira@hotmail.com";
-    private _password: string = "123ijij";
-    private _cpf: number = 13413413413;
-    private _contact: number = 999999999;
-    private _isAdmin: boolean = false;
+    firstName: string = "Alvaro";
+    lastName: string = "Ferreira";
+    userName: string = "alva7o";
+    email: string = "alvaromachadoferreira@hotmail.com";
+    password: string = "123ijij";
+    cpf: number = 13413413413;
+    contact: number = 999999999;
+    isAdmin: boolean = false;
 
-    public get firstName(){
-        return this._firstName;
+    constructor(firstName: string, lastName: string, userName: string, email: string, password: string, cpf: number, contact: number, isAdmin: boolean){
+  
+        this.firstName = firstName
+        this.lastName = lastName
+        this.userName = userName
+        this.email = email
+        this.password = password
+        this.cpf = cpf
+        this.contact = contact
+        this.isAdmin = isAdmin
+      
+      }
+
+    getFirstName(): string {
+        return this.firstName;
     }
-    public get lastName(){
-        return this._lastName;
+    getLastName(): string {
+        return this.lastName;
     }
-    public get userName(){
-        return this._userName;
+    getUserName(): string {
+        return this.userName;
     }
-    public get email(){
-        return this._email;
+    getEmail(): string {
+        return this.email;
     }
-    public get password(){
-        return this._password;
+    getPassword(): string {
+        return this.password;
     }
-    public get cpf(){
-        return this._cpf;
+    getCpf(): number {
+        return this.cpf;
     }
-    public get contact(){
-        return this._contact;
+    getContact(): number {
+        return this.contact;
     }
-    public get isAdmin(){
-        return this._isAdmin;
+    getIsAdmin(): boolean {
+        return this.isAdmin;
     }
 
-    public set firstName(value){
-        this._firstName = value;
+    setFirstName(value: string){
+        this.firstName = value;
     }
-    public set lastName(value){
-        this._lastName = value;
+    setLastName(value:string){
+        this.lastName = value;
     }
-    public set userName(value){
-        this._userName = value;
+    setUserName(value:string){
+        this.userName = value;
     }
-    public set email(value){
-        this._email = value;
+    setEmail(value:string){
+        this.email = value;
     }
-    public set password(value){
-        this._password = value;
+    setPassword(value:string){
+        this.password = value;
     }
-    public set cpf(value){
-        this._cpf = value;
+    setCpf(value:number){
+        this.cpf = value;
     }
-    public set contact(value){
-        this._contact = value;
+    setContact(value:number){
+        this.contact = value;
     }
-    public set isAdmin(value){
-        this._isAdmin = value;
+    setIsAdmin(value:boolean){
+        this.isAdmin = value;
     }
 }
-let user = new User();
-console.log(user.cpf);
+let user: User = new User ( 
+    'Alvaro',
+    'Ferreira',
+    'alva7o',
+    'alvaromachadoferreira@hotmail.com',
+    '123ijij',
+    13413413413,
+    999999999,
+    false
+);
 
+user.setCpf(12312312312)
+
+console.log(user.getFirstName());
+console.log(user.getLastName());
+console.log(user.getUserName());
+console.log(user.getEmail());
+console.log(user.getPassword());
+console.log(user.getCpf());
+console.log(user.getContact());
+console.log(user.getIsAdmin());
