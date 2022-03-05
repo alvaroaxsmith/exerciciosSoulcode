@@ -11,14 +11,14 @@ interface UserProps {
 
 class User implements UserProps {
 
-    firstName: string = "Alvaro";
-    lastName: string = "Ferreira";
-    userName: string = "alva7o";
-    email: string = "alvaromachadoferreira@hotmail.com";
-    password: string = "123ijij";
-    cpf: number = 13413413413;
-    contact: number = 999999999;
-    isAdmin: boolean = false;
+    firstName: string
+    lastName: string
+    userName: string
+    email: string
+    password: string
+    cpf: number
+    contact: number
+    isAdmin: boolean
 
     constructor(firstName: string, lastName: string, userName: string, email: string, password: string, cpf: number, contact: number, isAdmin: boolean){
   

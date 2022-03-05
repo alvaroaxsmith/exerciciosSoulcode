@@ -1,14 +1,6 @@
 "use strict";
 var User = /** @class */ (function () {
     function User(firstName, lastName, userName, email, password, cpf, contact, isAdmin) {
-        this.firstName = "Alvaro";
-        this.lastName = "Ferreira";
-        this.userName = "alva7o";
-        this.email = "alvaromachadoferreira@hotmail.com";
-        this.password = "123ijij";
-        this.cpf = 13413413413;
-        this.contact = 999999999;
-        this.isAdmin = false;
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
