@@ -5,13 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputTextComponent } from './input-text/input-text.component';
 import { InputNumberComponent } from './input-number/input-number.component';
+import { InputDateComponent } from './input-date/input-date.component';
+import { InputPasswordComponent } from './input-password/input-password.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     InputTextComponent,
-    InputNumberComponent
+    InputNumberComponent,
+    InputDateComponent,
+    InputPasswordComponent
   ],
   imports: [
     BrowserModule,
