@@ -25,7 +25,7 @@
 * [Exercício 3](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/js/ex3) - [Deploy](https://lista-ex.herokuapp.com/js/ex3/index.html)
 * [Exercício 4](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/js/ex4) - [Deploy](https://lista-ex.herokuapp.com/js/ex4/index.html)
 #
-### Angular
+### Typescript
 * [Exercício 1](https://github.com/alvaroaxsmith/exerciciosSoulcode/tree/main/angular/ex1) - [Deploy](https://lista-ex.herokuapp.com/angular/ex1/index.html)
 #
 ### Provas
